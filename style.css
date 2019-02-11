@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1em;
+    font-size: 1em;
+    text-align: center;
+    background-color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #fff;
+    height: 80px;
+    opacity: 0.2;
+    margin: 0 auto;
+}
+
+#navbar ul {
+    list-style: none;
+    display: inline-block;
+    background-color: #fff;
+}
+
+#navbar li {
+    float: left;
+    padding-top: 30px;
+}
+
+#navbar li a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+
+}
+#showcase {
+    min-height: 500px;
+}
+#showcase .bg-image {
+    position: absolute;
+    background: url(image/adventure-climb-climber-1043574.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #333;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.text-header {
+    position: absolute;
+    left: 2%;
+    top: 25%;
+    line-height: 2em;
+}
+
+.text-header h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 2.3em;
+}
+
+.text-header p {
+    color: #fff;
+    font-weight: 200;
+}
+
+#section-a #brand-name {
+    line-height: 2em;
+}
+
+#section-a {
+    background: #fff;
+    min-height: 450px;;
+}
+
+#brand-name h1 {
+    text-transform: uppercase;
+    color: #333333;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 1.7em;
+}
+
+#brand-name p {
+    color: #333333;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    padding-top: 20px;
+}
+
+#div-list {
+    padding-bottom: 15px;
+}
+
+#div-list img{
+    width: 90%;
+    height: 90%;
+
+}
+
+#div-list ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#div-list li {
+    padding: 10px;
+}
+
+#div-paragraph {
+    line-height: 1.2em;
+    padding: 10px 0px;
+}
+
+#div-paragraph h1 {
+    font-size: 1.7em;
+    margin: 22px 0px;
+    font-weight: 400;
+}
+
+#div-paragraph p {
+    font-size: 0.9em;
+    margin: 0px 20px;
+}
+#btn-readmore {
+    text-decoration: none;
+    background: #302B2B;
+    color: white;
+    border: 10px solid #333;
+    border-radius: 0.4em;
+}
+
+.content-wrap {
+    height: 200px;
+}
+.content-wrap h1{
+    font-size: 1.7em;
+    margin: 22px 0px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.content-wrap p {
+    font-size: 0.9em;
+    margin: 0px 20px;
+    color: #fff;
+}
+
+#btn-book {
+    text-decoration: none;
+    background: #fff;
+    color: #333;
+    border: 10px solid #fff;
+    border-radius: 0.4em;
+}
+
+#template img {
+    width: 100%;
+    min-height: 100%;
+}
+
+#template {
+    background: #fff;
+    padding: 18px 18px;
+}
+
+#template ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 18px;
+    
+}
+
+#template div {
+    width: 100%;
+    height: 100%;
+}
+
+#main-footer {
+    padding: 2em;
+}
+#main-footer div {
+    color: #fff;
+    line-height: 1.4em;
+}
+
+@media (min-width: 700px) {
+    .grid-expand {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid-expand > div {
+        justify-content: baseline;
+    }
+    #div-list img {
+        width: 100%;
+        height: 100%;
+    }
+    #div-list ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: stretch;
+        justify-items: stretch;
+        
+    }
+    #div-list li {
+        padding: 10px;
+    }
+    .card {
+        height: 100%;
+        
+    }
+}
